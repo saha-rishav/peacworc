@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <title>PeaceWorc</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="Assets/favicon.png">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- SLick -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!------------------------  NAVBAR  ------------------------>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light px-5 py-3">
+            <a class="navbar-brand logo" href="#banner">
+            <img src="Assets/logo-2.png" alt="logo">    
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#service">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#caregiver">Become A Caregiver</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#get-touch">Get in Touch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!------------------------  BANNER  ------------------------>
+
+    <!-- <div class="col-12 mb-5">
+        <div class="banner-section">
+            <img src="assets/eldercare.png" alt="banner img">
+        </div>
+    </div> -->
+    <div class="col-md-12 col-sm-12" id="banner">
+        <img class="ban-img" src="Assets/BANNER (1366 x 768) copy.jpg" alt="banner">
+        <div class="col-md-12 col-sm-12" id="banner-position">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
+                        <h1 class="ban-heading">Everything you need is now in your pocket</h1>
+                        <p class="ban-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum libero, sit veniam sequi odio delectus? Accusamus perspiciatis, voluptate deserunt voluptatem quas quos ullam eum repellendus, iusto aspernatur quo atque debitis?</p>
+                    </div>
+                    <div id="button" data-aos="zoom-in-right" data-aos-easing="linear"
+                        data-aos-duration="900"> 
+                            <button id="android" class="btn btn-success px-3" style="border-radius:5px;" type="button">Android App</button>
+                            <button id="ios" class="btn btn-primary px-3" style="border-radius:5px;" type="button">iOS App</button>
+                    </div>
+                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
+                        <p class="ban-paragraph text-light mt-2">Requires iOS 7.0 or higher</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800" id="second-img">
+                     <img src="Assets/MOBILE pHONE copy.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------  About Us  ------------------------>
+
+    <!-- <div class="about-container" id="about">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h2 class="fs-3 fw-bold text-success" data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="700">Welcome to Peace Care</h2>
+                <h3 class="mt-3 fw-bold" data-aos="fade-left" data-aos-easing="linear"
+                data-aos-duration="700" style="letter-spacing: 2px;">
+                    <span style="color: rgb(51, 116, 83);">We Make A</span>
+                    <span style="color: rgb(136, 211, 136);">Difference in Your Life</span>
+                </h3>
+                <div class="about-text" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="700">
+                    <p class="text-secondary mt-4">Kindness and perseverance can imbibe the feeling of determination and support during the darkest times. A lone soul would always lookout for a sense of belonging and being cared for. Our professional nurturers and caregivers are sure to make life easier and more enjoyable for you and your family members.</p>
+                    <p class="text-secondary">We are a trusted provider of quality and compassionate care. An epitome of responsible physical care and emotional support, our caregivers are sure to hold your hand during the trying times.</p>
+                    <p class="text-secondary">Our caring professionals are true friendly aides, who would hear you out in distress, provide assistance and motivate you in every other way possible to lead a better life.</p>
+                </div>
+                
+            </div>
+        </div>
+       
+    </div> -->
+    <div class="about-container" id="about_us">
+        <div class="row">
+            <div class="col-md-6 about-img" data-aos="fade-right" data-aos-easing="linear"
+            data-aos-duration="700" >
+                <img src="Assets/MOBILE pHONE 2 copy.png" alt="About us">
+            </div>
+            <div class="col-md-6">
+                <h2 class="fw-bold text-success py-3" data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="700">Welcome to Peace Care</h2>
+                <h3 class="mt-3 fw-bold" data-aos="fade-left" data-aos-easing="linear"
+                data-aos-duration="700" style="letter-spacing: 2px;">
+                    <span style="color: rgb(51, 116, 83);">We Make A</span>
+                    <span style="color: rgb(136, 211, 136);">Difference in Your Life</span>
+                </h3>
+                <div class="about-text" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="700">
+                    <p class="text-secondary mt-4">Kindness and perseverance can imbibe the feeling of determination and support during the darkest times. A lone soul would always lookout for a sense of belonging and being cared for. Our professional nurturers and caregivers are sure to make life easier and more enjoyable for you and your family members.</p>
+                    <p class="text-secondary">We are a trusted provider of quality and compassionate care. An epitome of responsible physical care and emotional support, our caregivers are sure to hold your hand during the trying times.</p>
+                    <p class="text-secondary">Our caring professionals are true friendly aides, who would hear you out in distress, provide assistance and motivate you in every other way possible to lead a better life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------  Our Services  ------------------------>
+
+    <div class="container" id="service">
+        <div class="row mt-5 px-5">
+            <h1 class="heading" data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="700">Our Services</h1>
+            <div class="service-box col-md-3 mt-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
+                <div class="service-box-items">
+                    <img src="Assets/elderly.jpg" class="service-img">
+                    <p class="fs-4 fw-bold mt-3 text-center">Elderly Care</p>
+                    <p class="text-secondary">Elderly people are always fascinated by a trusted companion. Old age and illness are what make the life of the elderly quite challenging. The urge to be cared for and nurtured. Caring for the elderly, for those who are suffering from any sort of disease, and assisting them in their day-to-day activities.</p>
+                    <!-- is what our caregivers are good at. -->
+                </div>
+            </div>
+
+            <div class="service-box col-md-3 mt-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
+                <div class="service-box-items">
+                    <img src="Assets/baby-care-logo.jpg" class="service-img">
+                    <p class="fs-4 fw-bold mt-3 text-center ">Baby Care</p>
+                    <p class=" text-secondary">A newborn constantly seeks attention and care. Managing babies and work at a time can be an untiring task. Juggling work and looking after the newborn is a big challenge altogether. Our thoroughly professional and trusted caregivers help you ease the mental pressure, by taking care of the baby while you are at your workplace.</p>
+                </div>
+            </div>
+
+            <div class="service-box col-md-3 mt-4" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800">
+                <div class="service-box-items">
+                    <img src="Assets/disabled.jpg" class="service-img">
+                    <p class="fs-4 fw-bold mt-3 text-center">Disabled-Care</p>
+                    <p class=" text-secondary">Our motivated caregivers provide utmost tenderness to the specially-abled individual. Assisting them in their day-to-day activities, making them learn the basic life skills, and productively garnering their interests and likelihoods, are some of the essential traits a caregiver possesses.</p>
+                </div>
+            </div>
+
+            <div class="service-box col-md-3 mt-4" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800">
+                <div class="service-box-items">
+                    <img src="Assets/patien.png" class="service-img">
+                    <p class="fs-4 fw-bold mt-3 text-center ">Patients Care</p>
+                    <p class=" text-secondary">Recovering from a prolonged illness takes its due course of time. Good care at home after hospital leads to a quick and smooth path for a patient's recovery. A patient's caregiver's work might not only be restricted to just providing proper nourishment and nutrition, sometimes just reading out their favorite book.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------  Become A Caregiver  ------------------------>
+
+    <div class="container" id="caregiver">
+        <h1 class="heading" data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="700">Become a caregiver</h1>
+        <div class="col-md-10 mx-auto">
+            <div id="text">
+                <p data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">A caregiver need not necessarily be a nursing professional or anyone from the medical field. Anyone and everyone from any class of society can serve mankind. Being compassionate and empathetic towards people can open up opportunities for you as a caregiver. Our caregivers are </p>
+                <p data-aos="fade-right" data-aos-easing="linear" data-aos-duration="850">Duties and Responsibilities-</p>
+                <ul data-aos="fade-right" data-aos-easing="linear" data-aos-duration="900">
+                    <li>The caregiver is in close contact with the person receiving care and should reasonably monitor their health.</li>
+                    <li>Caregivers encourage people to leave their homes and step into the outer world for the health benefits of the resulting physical and mental activity. Depending on a person's situation, a walk  through their neighborhood or a visit to a park may require planning or have risks, but it is good to do when possible.</li>
+                    <li>Caregivers help people with a healthy diet. Right from giving nutrition suggestions based on the recommendations of dietitians, monitoring the body weight, addressing difficulty swallowing or eating, and arranging a pleasant mealtime is what a caregiver's job undermines.</li>
+                    <li>Caregivers have a vital role in supporting people with managing their medications at home.</li>
+                    <li>Assists with bathing, dressing, and grooming.</li>
+                    <li>Measures and records vital signs.</li>
+                </ul>
+            </div>
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="950">
+                <button id="caregiver-button" class="btn btn-success px-4" type="button">Join</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <!------------------------  Download the App  ------------------------>
+
+    <div>
+
+    </div>
+
+    <!------------------------  Blog  ------------------------>
+
+    <div id="blog">
+
+        <div>
+            <h1 class="heading" data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="800">Our Blog</h1>
+            <!-- <h3>My Blog</h3> -->
+        </div>
+
+        <div class="blog-container">
+
+            <div class="blog-box" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="850">
+                
+                <div class="blog-img">
+                    <img src="Assets/blog.jpg" alt="">
+                </div>
+
+                <div class="blog-text">
+                    <!-- <span>9 December 2021</span> -->
+                    <a class="blog-title">What is this for?</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure excepturi magnam sunt quisquam et nobis molestias vero adipisci laboriosam molestiae? Atque, odio fuga ut beatae excepturi ipsam tenetur animi rerum?</p>
+                    <!-- <a href="#">Read More</a> -->
+                </div>
+            </div>
+
+            <div class="blog-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="850">
+
+                <div class="blog-img">
+                    <img src="Assets/blog.jpg" alt="">
+                </div>
+
+                <div class="blog-text">
+                    <!-- <span>9 December 2021</span> -->
+                    <a class="blog-title">What is this for?</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure excepturi magnam sunt quisquam et nobis molestias vero adipisci laboriosam molestiae? Atque, odio fuga ut beatae excepturi ipsam tenetur animi rerum?</p>
+                    <!-- <a href="#">Read More</a> -->
+                </div>
+            </div>
+
+            <div class="blog-box" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="850">
+
+                <div class="blog-img">
+                    <img src="Assets/blog.jpg" alt="">
+                </div>
+
+                <div class="blog-text">
+                    <!-- <span>9 December 2021</span> -->
+                    <a class="blog-title">What is this for?</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure excepturi magnam sunt quisquam et nobis molestias vero adipisci laboriosam molestiae? Atque, odio fuga ut beatae excepturi ipsam tenetur animi rerum?</p>
+                    <!-- <a href="#">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------  Testimony  ------------------------>
+
+    <div class="container" id="testimonial">
+
+        <div>
+            <h1 class="heading" data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="800">Reviews From Our Happy Clients</h1>
+        </div>
+        <div class="heading my-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="850">
+            <span>Average Ratings</span>
+            <div class="reviews">4.5
+                <div class="reviews-star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-box-container responsive my-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+
+            <div class="testimonial-box">
+
+                <div class="box-top">
+
+                    <div class="profile">
+
+                        <div class="profile-img">
+                            <img src="Assets/among us.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Alok Deka</strong>
+                            <p>@alok.deka</p>
+
+                        </div>
+                    </div>
+
+                    <div class="review">4.0
+                        <div class="review-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, veniam excepturi accusamus, iste corrupti architecto nobis dolore eligendi incidunt sed tenetur assumenda maxime laboriosam optio ex consequatur quas! Vero, repellat.</p>
+                </div>
+            </div>
+
+            <div class="testimonial-box">
+
+                <div class="box-top">
+
+                    <div class="profile">
+
+                        <div class="profile-img">
+                            <img src="Assets/among us.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Hirak Jyoti Das</strong>
+                            <p>@hirakjyoti</p>
+
+                        </div>
+                    </div>
+
+                    <div class="review">4.5
+                        <div class="review-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, veniam excepturi accusamus, iste corrupti architecto nobis dolore eligendi incidunt sed tenetur assumenda maxime laboriosam optio ex consequatur quas! Vero, repellat.</p>
+                </div>
+            </div>
+
+            <div class="testimonial-box">
+
+                <div class="box-top">
+
+                    <div class="profile">
+
+                        <div class="profile-img">
+                            <img src="Assets/among us.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Avishek Kar</strong>
+                            <p>@avishek.kar</p>
+
+                        </div>
+                    </div>
+
+                    <div class="review">3.0
+                        <div class="review-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, veniam excepturi accusamus, iste corrupti architecto nobis dolore eligendi incidunt sed tenetur assumenda maxime laboriosam optio ex consequatur quas! Vero, repellat.</p>
+                </div>
+            </div>
+
+            <div class="testimonial-box">
+
+                <div class="box-top">
+
+                    <div class="profile">
+
+                        <div class="profile-img">
+                            <img src="Assets/among us.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Dipankar Kataki</strong>
+                            <p>@dipankar.kataki</p>
+
+                        </div>
+                    </div>
+
+                    <div class="review">3.5
+                        <div class="review-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, veniam excepturi accusamus, iste corrupti architecto nobis dolore eligendi incidunt sed tenetur assumenda maxime laboriosam optio ex consequatur quas! Vero, repellat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------  Get in Touch  ------------------------>
+
+    <div class="container" id="get-touch">
+
+        <div class="row my-5">
+            <h1 class="heading my-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">Get in Touch</h1>
+            <div class="col-md-5" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.6088005007714!2d91.78227631434825!3d26.144295299040753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5923b109797f%3A0x1e84a3dca5a2bd58!2sEkodus%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1635740806383!5m2!1sen!2sin"
+                    width=100% height="350" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+            <div class="col-md-7" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
+
+                <p class="ps-4" style="font-size: 25px; color: black ; font-weight: 700;">
+                    Please provide the followings :
+                </p>
+                <form class="p-4 py-1">
+                    <div class="mb-3">
+                        <input id="user" class="form-control" type="text" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input id="email" class="form-control" type="email" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <input id="subject" class="form-control" type="text" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea id="message" class="form-control" rows="3" type="text" placeholder="Your Message"></textarea>
+                    </div>
+                    <button id="submit" class="btn btn-success px-4" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center">Copyright @2021 | PeaceWorc </p>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- <script src="css/bootstrap.js"></script> -->
+
+    <!-- Slick Script -->
+    <script src="plugins/slick/slick.min.js"></script>
+
+    <script>
+        // const navbar = document.querySelector('.navbar');
+        // window.onscroll = () => {
+        //     if(window.scrollY > 100){
+        //         navbar.classList.add('active');
+        //     } else {
+        //         navbar.classList.remove('active');
+        //     }
+        // };
+
+        $('.responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 1000,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            autoplay: true,
+            arrows: true,
+            autoplaySpeed: 3000,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+        AOS.init();
+
+        
+    </script>
+
+
+
+</body>
+
+</html>

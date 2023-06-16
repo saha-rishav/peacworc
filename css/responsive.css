@@ -1,0 +1,279 @@
+@media (max-width: 320px) {
+    .logo img {
+        width: 130px;
+    }
+    .navbar .logo {
+        margin-left: -30px;
+    }
+    .ban-heading {
+        /* margin-left: 0px;
+        margin-top: 50px;
+        text-align: center; */
+        font-size: 1.5rem;
+    }
+    .ban-paragraph {
+        /* margin-left: 12px;
+        text-align: initial; */
+        font-size: 14px;
+    }
+    #android{
+        font-size: 12px;
+    }
+    #ios{
+        font-size: 12px;
+    }
+    .about-text{
+        padding: 0px 15px 0px 15px;
+    }
+    #about h3 {
+        font-size: 23px;
+    }
+    .service-box-items{
+        border-color: rgba(2, 6, 247, 0.295);
+    }
+    #text ul{
+        padding-right: 25px;
+    }
+  }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px){
+    #second-img img{
+        display: none;
+    }
+    .navbar .logo{
+        margin-left: -25px;
+    }
+    #navbarSupportedContent ul li a:hover{
+        border-bottom: 0px solid rgb(100, 100, 100);
+    }
+    .ban-heading{
+        margin-left: 0px;
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .ban-paragraph{
+        margin-left: 12px;
+        text-align: initial;
+    }
+    #banner .ban-img{
+        height: 62vh;
+    }
+    #banner::after{
+        height: 62vh;
+    }
+    #button{
+        margin-left: 12px;
+    }
+    .about-img img {
+        height: 50vh;
+        /* margin-top: 95px; */
+        margin-left: 0px;
+    }
+    #about_us{
+        padding: 0px;
+    }
+    #about_us h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    #about_us h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    .about-text{
+        margin: 10px;
+        padding: 0px 15px 0px 15px;
+    }
+    .service-box-items{
+        border-color: rgba(2, 6, 247, 0.295);
+    }
+    #text ul{
+        padding-right: 25px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar .logo{
+        margin-left: -25px;
+    }
+    #navbarSupportedContent ul li a:hover{
+        border-bottom: 0px solid rgb(100, 100, 100);
+    }
+    .ban-heading{
+        margin-left: 25px;
+        margin-top: 119px;
+    }
+    .ban-paragraph{
+        margin-left: 28px;
+    }
+    #banner .ban-img{
+        height: 53vh;
+    }
+    #banner::after{
+        height: 53vh;
+    }
+    #button{
+        margin-left: 28px;
+    }
+    #second-img img {
+        display: none;
+    }
+    /* .about-text{
+        margin: 30px;
+        padding: 5px;
+    } */
+    #text{
+        margin: 25px;
+    }
+    #text p{
+        text-align: justify;
+    }
+    #text ul{
+        text-align: justify;
+    }
+    #caregiver-button{
+        margin-left: 40px;
+    }
+    .about-img img {
+        height: 50vh;
+        /* margin-top: 95px; */
+        margin-left: 0px;
+    }
+    #about_us{
+        padding: 0px;
+    }
+    #about_us h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    #about_us h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    .about-text{
+        margin: 10px;
+        padding: 0px 15px 0px 15px;
+    }
+    .service-box-items{
+        border-color: rgba(2, 6, 247, 0.295);
+    }
+    #text ul{
+        padding-right: 25px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    #navbarSupportedContent ul li a:hover{
+        border-bottom: 0px solid rgb(100, 100, 100);
+    }
+    .ban-heading{
+        margin-top: 140px;
+        margin-left: 55px;
+    }
+    .ban-paragraph{
+        margin-left: 57px;
+    }
+    #button{
+        margin-left: 58px;
+    }
+    #button #android{
+        font-size: 11px;
+        padding: 12px;
+    }
+    #button #ios{
+        font-size: 11px;
+        padding: 12px
+    }
+    #banner{
+        height: 55vh;
+    }
+    #banner h1{
+        font-size: 25px;
+    }
+    #banner p{
+        font-size: 12px;
+    }
+    #banner .ban-img{
+        height: 54vh;
+    }
+    #banner::after{
+        height: 54vh;
+    }
+    #second-img img{
+        padding: 100px;
+        margin-top: 12px;
+        margin-left: -13rem;
+    }
+    #about{
+        margin-top: 30px;
+        padding: 0px;
+    }
+    #about h3{
+        font-size: 35px;
+    }
+    .about-text{
+        padding: 0px 12px;
+        text-align: center;
+    }
+    .service-box-items{
+        border-color: rgba(2, 6, 247, 0.295);
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .ban-heading {
+        /* margin-left: 70px; */
+        margin-top: 110px;
+        /* color: white; */
+    }
+    #second-img img {
+        margin-top: 50px;
+        height: 430px;
+        margin-left: -13rem;
+    }
+}
+
+/* 
+@media (max-width: 820px){
+    #navbarSupportedContent ul li a:hover{
+        border-bottom: 0px solid rgb(100, 100, 100);
+    }
+    .ban-heading{
+        margin-left: 55px;
+        margin-top: 140px;
+    }
+    .ban-paragraph{
+        margin-left: 56px;
+    }
+    #button{
+        margin-left: 56px;
+    }
+    #banner .ban-img {
+        height: 50vh;
+    }
+    #banner::after{
+        height: 50vh;
+    }
+    #banner{
+        height: 50vh;
+    }
+    #second-img img{
+        padding: 60px;
+        margin-top: 60px;
+        margin-left: -16rem;
+    }
+    #about{
+        padding: 30px 50px 0px 50px;
+    }
+} */
+
+
+
